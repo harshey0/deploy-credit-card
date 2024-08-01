@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Card Fraud Detection</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Credit Card Fraud Detection</h1>
+    <form id="fraudForm">
+        <label for="transactionDetails">Transaction Details (Time, Amount, V1, V2, ..., V28):</label><br>
+        <textarea id="transactionDetails" name="transactionDetails" rows="10" cols="50" placeholder="1200,200.00,-1.359807134,-0.072781173,..."></textarea><br><br>
+        <button type="button" onclick="fillSampleData()">Fill Sample Data</button><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <div id="result"></div>
+    <footer><a href="https://github.com/harshey0/Credit-card-fraud-detection">Model Used</a></footer>
+    <script src="script.js"></script>
+</body>
+</html>
